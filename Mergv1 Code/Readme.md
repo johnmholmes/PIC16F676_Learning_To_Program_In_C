@@ -1,5 +1,7 @@
 This code is part of a youtube play list series found at the link below.
 
+The Data sheet attached was correct at time of creating this repository best to google for upto date versions.
+
 https://www.youtube.com/playlist?list=PL2Mz1GBib5AueluEywwCpPj4Y_bB1dpVP
 
 for this version you need to watch 2 videos 
