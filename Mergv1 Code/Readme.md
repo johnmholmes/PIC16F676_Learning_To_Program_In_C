@@ -10,6 +10,24 @@ for this version you need to watch 2 videos
 
 2. https://www.youtube.com/watch?v=ds4huXF6x0I&list=PL2Mz1GBib5AueluEywwCpPj4Y_bB1dpVP&index=2
 
+----------------------------------------------------------------------------
+
+We will be using following from the tables.
+
+PORTA (This has 6 options we can use for pins PORTA0 to PORTA5)
+
+PORTC (This has 6 options we can use for pins PORTC0 to PORTC5)
+
+TRISA (This has 6 options we can use for pins TRISA0 to TRISA5)
+
+TRISC (This has 6 options we can use for pins TRISC0 to TRISC5) We can use the following to set all pins as outputs TRISC = 0X00;
+
+ANSEL (This we use to make the pins either anolog or digital pins) We can use the following to set all pins as Digital outputs ANSEL = 0X00;
+
+There use will be explained later in the demonstration.
+
+---------------------------------------------------------------------------
+
 The blink code is one of the first code people learning to program micro controllers or Raspberry PI tend to learn. So I have also started with this demonstration on here. This example is not the only way this could be done. However I have tried to keep it as simple as I can. The PIC I am using has many inputs and output pins. I will be programming on PORTD this has 8 I/O pins Labelled D0 - D7.
 
 The explanation of the code is after the full code below. I would also suggest that you try to change some of the code to change the led flashing and also the delay time.
