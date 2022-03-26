@@ -13,3 +13,19 @@ The blink code is one of the first code people learning to program micro control
 The explanation of the code is after the full code below. I would also suggest that you try to change some of the code to change the led flashing and also the delay time.
 
 Once you are comfortable with the code then you can move onto the next version Blink V2.
+
+---------------------------------------------------------------------------
+
+Try Changing Parts Of The Code
+
+You can change the delay value of each led by changing the value inside of the “(3000)” now 3 seconds delay.
+
+You can change the the allocation of the output pin. To do this you need to change 3 things.
+
+TRISD0 change the 0 to which pin number you want so pin 1 becomes “TRISD1”.
+
+RD0=1; Change the 0 to which pin number you want so pin 1 becomes “RD1=1;”.
+
+RD0=0; Change the 0 to which pin number you want so pin 1 becomes “RD1=0;”.
+
+Now recompile your code and up load to the PIC.
