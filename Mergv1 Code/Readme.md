@@ -6,7 +6,7 @@ for this version you need to watch 2 videos
 
 1. https://www.youtube.com/watch?v=8iKSPyp0_NA&list=PL2Mz1GBib5AueluEywwCpPj4Y_bB1dpVP&index=1
 
-2. 
+2. https://www.youtube.com/watch?v=ds4huXF6x0I&list=PL2Mz1GBib5AueluEywwCpPj4Y_bB1dpVP&index=2
 
 The blink code is one of the first code people learning to program micro controllers or Raspberry PI tend to learn. So I have also started with this demonstration on here. This example is not the only way this could be done. However I have tried to keep it as simple as I can. The PIC I am using has many inputs and output pins. I will be programming on PORTD this has 8 I/O pins Labelled D0 - D7.
 
@@ -29,3 +29,9 @@ RD0=1; Change the 0 to which pin number you want so pin 1 becomes “RD1=1;”.
 RD0=0; Change the 0 to which pin number you want so pin 1 becomes “RD1=0;”.
 
 Now recompile your code and up load to the PIC.
+
+---------------------------------------------------------------------------
+
+The Error I speak about are because I did not declare them as variable before hand.
+
+This will not cause any issues its just a warning.
